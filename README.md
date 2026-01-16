@@ -49,13 +49,14 @@ The project is designed with **clean separation of UI and authentication logic**
 ## Project Structure
 
 secure-login-2fa/
-│
-├─ pom.xml                 # Maven dependencies & build
-├─ src/main/java/
-│   ├─ LoginFrame.java     # Login window
-│   ├─ TwoFAFrame.java     # 2FA verification window
-│   ├─ OTPServer.java      # TOTP generation & verification logic
-│   └─ OrdersFrame.java    # Post-login order management GUI
+├─ pom.xml # Maven dependencies & build
+└─ src/
+└─ main/
+└─ java/
+├─ LoginFrame.java # Login window
+├─ TwoFAFrame.java # 2FA verification window
+├─ OTPServer.java # TOTP generation & verification logic
+└─ OrdersFrame.java # Post-login order management GUI
 
 
 ---
