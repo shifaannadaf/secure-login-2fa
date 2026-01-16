@@ -78,7 +78,7 @@ secure-login-2fa/
 
 ## Architecture & Design
 
-'''
+```
 +-------------------+ +-------------------+
 | LoginFrame | ----> | TwoFAFrame |
 | (username/password)| | (TOTP verification)|
@@ -95,7 +95,7 @@ v
 | OrdersFrame |
 | (Demo UI System) |
 +-------------------+
-'''
+```
 
 ---
 
