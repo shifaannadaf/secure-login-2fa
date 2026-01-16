@@ -78,24 +78,24 @@ secure-login-2fa/
 
 ## Architecture & Design
 
-+-------------------+       +-------------------+
-|    LoginFrame     | ----> |   TwoFAFrame      |
-| (username/password)|      | (TOTP verification)|
-+-------------------+       +-------------------+
-                                   |
-                                   v
-                           +-------------------+
-                           |    OTPServer      |
-                           | (RFC 6238 TOTP)  |
-                           +-------------------+
-                                   |
-                                   v
-                           +-------------------+
-                           |   OrdersFrame     |
-                           | (Demo UI System)  |
-                           +-------------------+
-
-
+'''
++-------------------+ +-------------------+
+| LoginFrame | ----> | TwoFAFrame |
+| (username/password)| | (TOTP verification)|
++-------------------+ +-------------------+
+|
+v
++-------------------+
+| OTPServer |
+| (RFC 6238 TOTP) |
++-------------------+
+|
+v
++-------------------+
+| OrdersFrame |
+| (Demo UI System) |
++-------------------+
+'''
 
 ---
 
@@ -105,5 +105,5 @@ Shifaa Nadaf
 
 Email: snadaf@hawk.illinoistech.edu
 
-LinkedIn: linkedin.com/in/shifaannadaf
+LinkedIn: https://www.linkedin.com/in/shifaannadaf/
 
