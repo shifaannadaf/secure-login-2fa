@@ -145,32 +145,32 @@ CREATE TABLE orders (
 ```
 ## ▶️ How to Run Locally
 
--**1. Start MySQL**
-   -brew services start mysql
+- **1. Start MySQL**
+   - brew services start mysql
 
--**2. Build the project**
-   -mvn clean compile
+- **2. Build the project**
+   - mvn clean compile
 
--**3. Run the application**
-   -mvn exec:java -Dexec.mainClass="LoginFrame"
+- **3. Run the application**
+   - mvn exec:java -Dexec.mainClass="LoginFrame"
 
--**4. Login**
+- **4. Login**
 
-   -Username: admin
+   - Username: admin
 
-   -Password: password123
+   - Password: password123
 
--**5. Complete 2FA**
+- **5. Complete 2FA**
 
-   -Add secret JBSWY3DPEHPK3PXP to Google Authenticator
+   - Add secret JBSWY3DPEHPK3PXP to Google Authenticator
 
-   -Enter the generated 6-digit TOTP code
+   - Enter the generated 6-digit TOTP code
 
--**6. Use the Order Management System**
+- **6. Use the Order Management System**
 
-   -Add, delete, refresh, and search orders
+   - Add, delete, refresh, and search orders
 
-   -Orders persist in MySQL
+   - Orders persist in MySQL
 
 ## ☁️ AWS S3 Notes
 
@@ -181,23 +181,23 @@ Disabled by default for local execution:
 private static final boolean ENABLE_S3 = false;
 
 
--**To enable S3:**
+- **To enable S3:**
 
-   -Create an S3 bucket
+   - Create an S3 bucket
 
-   -Configure AWS credentials locally
+   - Configure AWS credentials locally
 
-   -Set ENABLE_S3 = true
+   - Set ENABLE_S3 = true
 
-🎓## Academic Notes
+🎓Academic Notes
 
--Demonstrates secure authentication with 2FA
+- Demonstrates secure authentication with 2FA
 
--Shows transactional vs archival data separation
+- Shows transactional vs archival data separation
 
--Uses industry-standard libraries
+- Uses industry-standard libraries
 
--Designed for extensibility to web or cloud deployment
+- Designed for extensibility to web or cloud deployment
 
 ## 👤 Author
 
